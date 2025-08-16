@@ -1,0 +1,46 @@
+/* Resets and presettings */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Saira", Helvetica, sans-serif;
+  border: 1px solid white;
+}
+/* General settings */
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.app-container {
+  width: 100%;
+}
+
+.card {
+  max-width: 1440px;
+  margin: auto;
+  height: 100vh;
+  background-color: #2e2e2e;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.04rem;
+  text-align: justify;
+  gap: 16px;
+}
+
+/* Cards */
+.ss {
+  width: 70%;
+  /* margin-top: 20px; */
+  padding: 24px;
+}
+
+.card .card-header img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
